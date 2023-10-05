@@ -1,0 +1,133 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="850.4,1122.4" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="545.6,1057.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="ブラウザーを使用 Chrome: Chapter2.2. 最もシンプルなウェブ画面自動化 : RPA Training Site" sap:VirtualizedContainerService.HintSize="483.2,945.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="5f324775-9ced-4ab7-80f0-8990389737ae" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="実行" sap:VirtualizedContainerService.HintSize="449.6,728.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="文字を入力 '名前を入力してください'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="5f324775-9ced-4ab7-80f0-8990389737ae" Text="ddd" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://rpatrainingsite.com/onlinepractice/chapter2.2/" CvElementArea="521, 523, 720, 49" CvTextArea="530, 533, 43, 23" CvTextArgument="B*" CvType="InputBox" DesignTimeRectangle="524, 523, 718, 48" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'島村'" FullSelectorArgument="&lt;webctrl id='name' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='name' tag='INPUT' type='text' class='form-control' aaname='' /&gt;" Guid="f5741b3d-83f7-4743-94a8-6bb290ab98cd" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAtIAAAA0CAYAAACn6N8cAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAANiSURBVHhe7d09TuNQGIbR2d50dOyDgo5lINGwCmjYBQUtShUhKoQgEBLCHb44No4J+bmDkZHPkd7CSUj96Mo4fxIAALAzIQ0AABmENAAAZBDSAACQYSmkR6NRGg6H6fr62szMzMzM3hd9HJ3cVIV0vDkYDNLd3V16eHiYX5uZmZmZ9XmPj4/zPo5Ojuu6KqSjtONDT09P6fn5OY3HYzMzMzOzXi+6OPo4Ojl6ua4K6Ti2jsqOP3h5eUmTySRNp1MzMzMzs14ueji6OPo4Ojl6uW4ppKO4y4CezWZmZmZmZr1eGdTRyWtDOmq7jOi3tzczMzMzs16vjOno5LUhHUfXr6+vVUgDAEBf1UM6OnmrkBbRAABQxHT0sZAGAIAdCGkAAMggpAEAIIOQBgCADD8X0rcX6WBvPx2c3y5eAACA3+vHQvrm/Cj93TtNl4trAAD4zVoJ6cuT/fdo3nVH6WzdYfXiRPt4mxLf5bMAAJChvZA+vEg3i+tNitNqIQ0AwO/hRBoAADI4kQYAgAydDuni9fqpdW0nV1Uwr3y/vvgsAAB8o/ZCelXQrt36E+kyqp1IAwDQBZ04kd7sNp0dFsEtpAEA6IIOnUh/7NOPtlyefry/FOhX6XjV54U0AAAt+wUn0h+n0dVq9zwX0d74oRchDQBAyzof0tW90edlHDdPoYvrpX8oFNIAALSsvZCOuM1ZPcAXQVx/QkcRxxHPH6fQn576IaQBAGhZKyG9rDgx3hy1i1s4qpBuXK+N48YptZAGAKBl3xvS838KbNyvvDKkV73WCOfmd+0Sx0IaAICWdS+kv/rxFCENAECHdCiki9c+PcquJKQBAOiQFkJ6f+sthe7ib7+M313ieNN3AQDAf/qBE+l1Gs+I/uq2jrAhpD89KeSbHr8HAACrfG9IAwBATwhpAADIIKQBACCDkAYAgAxCGgAAMghpAADIIKQBACCDkAYAgAxCGgAAMghpAADIIKQBACBDVkiLaQAA+qxs4q1Cejwep+l0mmazmZgGAKC3yhaOLo4+jk7+MqSHw2G6v79Pk8lkXt31mDYzMzMz69uih6OLo4+jk6OX66qQHo1GaTAYLMW0mZmZmVmfV0Z0dHL0cl0V0iHejNKOY2szMzMzM7ue93EzosNSSAMAANtI6R9vXHXoSKfh3QAAAABJRU5ErkJggg==" InformativeScreenshot="dc63195991c69ef1800ae66237758e5a.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Chapter2.2. 最もシンプルなウェブ画面自動化 : RPA Training Site' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvTextArgument="S02DUK&lt;EL" CvType="Text" DesignTimeRectangle="524, 484, 220, 30" ElementType="Text" FriendlyName="'名前を入力してください'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='名前を入力してください' check:innerText='名前を入力してください' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="クリック '送信'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5f324775-9ced-4ab7-80f0-8990389737ae" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://rpatrainingsite.com/onlinepractice/chapter2.2/" CvElementArea="521, 617, 71, 44" CvTextArea="536, 630, 38, 20" CvTextArgument="XXE" CvType="Button" DesignTimeRectangle="524, 618, 67, 42" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'送信'" FullSelectorArgument="&lt;webctrl id='helloButton' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='helloButton' tag='BUTTON' type='button' class='btn btn-primary' aaname='送信' check:innerText='送信' /&gt;" Guid="7f3b9cb9-09a8-401a-9347-28e31d8ad6a2" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEcAAAAuCAYAAAB6SwSNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAH7SURBVGhD7ZoxTsQwEEXpuBWXSknBQdiWIyCqPQISVbq9AM2WlMbjzLcc5yfxrrwrsOdJv8CxEX6MJyn84IxVTM4GJmeDhZy3L+eeXp17fPEPn9uP7FP2K/vOmckZPpaLe4rsPyXKEXNsQW9JKyjKkdJik3uLeABRTi89Zi/iAUQ5bGKvASaHBJgcEmBySIDJIQEmhwSYHBJgckiAySEBVeUcvp07n5bjo//9bPz44x/4Nfk4Mvg1woE8u2VAdTnC8X0+Tjf5OY3lc9OE3yfy/JzzNH0T9g+4JqD6sQrV4DNk41I9oxcym7dRNZJ8zb0C6vcc/S+jImSDuxCZodpkvLBqIjvCSwLu3pDX+k8eqaxax+TSgL8pR/uRySEJ/SidV3i0avUnUE0O3lRAeg7eUiVEEVI1Xs7Y5LHSI0Ff0fpMWPt2wRtq1nP+e+XEbMjBR+Lax2JYq2+bNhvymhwdDxWjlUCrS9OPHJUxK/s1iZpUTnHv8mvy76VrAm4vR3+m/UCfsQpZyNnZeMmc0oDqcvBFLDJK/2ARkX/ZtiVHjw42GSRlG74kTcmhbyA9NqWkR6/NntNAgMkhASaHBJgcEmBySIDJIQEmhwREOXZ5aQq9vGTX3qbQa292YXIKvTAp2FVbFaHM5AhiTkqrlx4k+5T9phUDFnIM4NwvLg6RTWHM1zAAAAAASUVORK5CYII=" InformativeScreenshot="0c3f3a25c8ef434ceafe52e608308eeb.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Chapter2.2. 最もシンプルなウェブ画面自動化 : RPA Training Site' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="クリック '閉じる'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5f324775-9ced-4ab7-80f0-8990389737ae" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://rpatrainingsite.com/onlinepractice/chapter2.2/" CvTextArgument="BUD" CvType="Text" DesignTimeRectangle="891, 436, 84, 42" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'閉じる'" FullSelectorArgument="&lt;webctrl parentid='HelloModal' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='HelloModal' tag='BUTTON' type='button' class='btn btn-default' aaname='閉じる' check:innerText='閉じる' /&gt;" Guid="3d46b3db-3a5d-4531-9c10-a35c59008327" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFgAAAAuCAYAAACs7t7oAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJvSURBVHhe7ZvBbcJAEEXTE21QA3RAA3RBJ/TAEa6IExckbogjJ7TRixiyrMfGNjMOKPOkFc56bQ9vvzchwl8pcCUEOxOCnakIPp1Oabfbpc1mk9brdbSWDV94w1/Og+DD4ZC22206n8/per3eeoM24Atv+MOjcBeMeXaG2NfAHx4lyXfBxJsZCF4Hj/iEu2DWkEivDXjEJ9wFs1AHdojPEOxECHYmBDsTgp0Jwc6EYGdCsDMh2JmPF8zH0dlslvb7/a3nvXARzJueTqdpNBpVmnx0XC6X6n6OK/8XwjFlP8cvFovK9rvhKlhkQtmnSdFEAmPn83m6XC63nsfk5tt11E2o1hhrxUckWBMM9Fsll8kZj8c/5zsej7fe1/mIBDPOSqQGtSDXYx3/14KlJs/JcxWsLQG5YG3/UIKpwyu1OYMluA1NCWZCLGAdZz3XJpdmdR3hzwTzRspfXBaCRaA2nvMjsS65ufyu4ajDXfCzxNBEqoVgxE0mkweBUoN2bg2uZbV8DJ7gXDiv/Cw0CW67BjMuP69cr0si5Zi2k9rEoILzwmnWgrX0lkhtcveUNcBHCpY+KbqLYPqf3bLsY0yTlLIGYLu8plZ/XwYRzCtpyQvuIhhIcJ1k9nH+JrnAsXykzs8vac3vELa1ZPfBXbAmEroKBpmosrVZPkDqKsdLLavV6ud8TTV0ZZAE50jaRIwkqKusvpTXy5ulWMFFcPBLCHYmBDsTgp0Jwc6EYGdCsDMVwfztGl/AtkH9AnY8QmAHHiuPEMRDMDbgT30IBuIxrv7gC2/4Ux/jEjBPvFlDWKijtWv4wpskV6gIDixJ6RscMLkUZ9OZgAAAAABJRU5ErkJggg==" InformativeScreenshot="4b3f1168db0fdafe94976cd1f7cac588.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Chapter2.2. 最もシンプルなウェブ画面自動化 : RPA Training Site' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="3ae536c6ba13b73e55ec16f675ff6766.jpg" Selector="&lt;html app='chrome.exe' title='Chapter2.2. 最もシンプルなウェブ画面自動化 : RPA Training Site' /&gt;" Title="Chapter2.2. 最もシンプルなウェブ画面自動化 : RPA Training Site" Url="https://rpatrainingsite.com/onlinepractice/chapter2.2/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
